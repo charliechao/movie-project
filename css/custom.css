@@ -1,0 +1,152 @@
+/* line 11, scss/custom.scss */
+.bgcl {
+  position: fixed;
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* line 25, scss/custom.scss */
+#homebg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* line 36, scss/custom.scss */
+body > div.navbar.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+/* line 41, scss/custom.scss */
+.btn-twitter {
+  color: white;
+  background-color: rgba(85, 172, 238, 0.5);
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+/* line 47, scss/custom.scss */
+.btn-facebook {
+  color: white;
+  background-color: rgba(59, 89, 152, 0.5);
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+/* line 53, scss/custom.scss */
+.btn-vimeo {
+  color: white;
+  background-color: rgba(26, 183, 234, 0.5);
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+/* line 59, scss/custom.scss */
+.btn-youtube {
+  color: white;
+  background-color: rgba(225, 42, 39, 0.5);
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+/* line 66, scss/custom.scss */
+.btn-block-left {
+  color: white;
+  background-color: rgba(248, 207, 0, 0.5);
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+/* line 72, scss/custom.scss */
+#movieText {
+  margin-top: 20%;
+}
+
+/* line 77, scss/custom.scss */
+#movieText h1, #movieText h2, #movieText h4 {
+  line-height: 50%;
+  color: white;
+  font-family: sans-serif;
+}
+
+/* line 84, scss/custom.scss */
+#footer {
+  background-color: rgba(142, 135, 135, 0.5);
+  padding-bottom: 0;
+  color: white;
+}
+
+/* line 90, scss/custom.scss */
+#footer-text a {
+  color: white;
+}
+
+/* line 95, scss/custom.scss */
+#logo {
+  background-color: #f8cf00;
+}
+
+/* line 104, scss/custom.scss */
+#map {
+  height: 500px;
+}
+
+/* line 109, scss/custom.scss */
+table.table-hover > tbody > tr:hover > td,
+table.table-hover > tbody > tr:hover > th {
+  background-color: #f8cf00;
+}
+
+/* line 115, scss/custom.scss */
+.jssorb03 div, .jssorb03 div:hover, .jssorb03 .av {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+/* line 121, scss/custom.scss */
+.jssorb03 div {
+  background-position: -5px -4px;
+}
+
+/* line 125, scss/custom.scss */
+.jssorb03 div:hover, .jssorb03 .av:hover {
+  background-position: -35px -4px;
+}
+
+/* line 129, scss/custom.scss */
+.jssorb03 .av {
+  background-position: -65px -4px;
+}
+
+/* line 132, scss/custom.scss */
+.jssorb03 .dn, .jssorb03 .dn:hover {
+  background-position: -95px -4px;
+}
+
+/* line 137, scss/custom.scss */
+div[u="slides"] {
+  cursor: move;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 640px;
+  height: 390px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 155, scss/custom.scss */
+  footer {
+    display: none;
+  }
+
+  /* line 160, scss/custom.scss */
+  #movieText h2, #movieText h4 {
+    display: none;
+  }
+}

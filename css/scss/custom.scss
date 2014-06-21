@@ -1,0 +1,180 @@
+$bg-color:#f8cf00;
+$text-color:#fff;
+$twtbtn-color:#55acee;
+$fbbtn-color:#3b5998;
+$vmbtn-color:#1ab7ea;
+$ytbtn-color:#e12a27;
+$ftbg-color:#8e8787;
+
+// For all pages
+
+.bgcl {
+position: fixed; 
+opacity: 0.7;
+  top: 0; 
+  left: 0; 
+  width: 100%;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+} 
+
+
+
+// Homepage CSS
+#homebg {
+position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+} 
+
+
+body > div.navbar.navbar-default{
+ background-color: transparent;
+ border-color: transparent;
+ }
+
+.btn-twitter {
+    color: $text-color;
+    background-color:rgba($twtbtn-color, 0.5); 
+    border-color: rgba(0,0,0,0.2)
+ }
+    
+.btn-facebook {
+    color: $text-color;
+    background-color: rgba($fbbtn-color, 0.5); 
+    border-color: rgba(0,0,0,0.2)
+}
+
+.btn-vimeo {
+    color: $text-color;
+    background-color:rgba($vmbtn-color, 0.5);
+    border-color: rgba(0,0,0,0.2)
+}
+
+.btn-youtube {
+	  color: $text-color;
+    background-color: rgba($ytbtn-color, 0.5);
+    border-color: rgba(0,0,0,0.2)
+
+}
+
+.btn-block-left {
+	color: $text-color;
+    background-color: rgba($bg-color, 0.5);
+    border-color: rgba(0,0,0,0.2)
+}
+
+ #movieText{
+ margin-top:20%;
+
+  }    
+
+#movieText h1, #movieText h2, #movieText h4{
+	line-height: 50%;
+	color: $text-color;
+	font-family: sans-serif;
+}
+
+
+#footer {
+    background-color:rgba($ftbg-color,0.5);
+    padding-bottom: 0;
+    color: $text-color;
+}
+
+#footer-text a {
+    color: $text-color;
+}
+
+
+#logo {
+background-color: $bg-color;
+}
+
+// Photoes page CSS
+
+
+// Watch Now CSS
+
+#map{
+  height: 500px;  
+}
+
+table.table-hover > tbody > tr:hover > td,
+table.table-hover > tbody > tr:hover > th {
+  background-color: $bg-color;
+}  
+
+// videos page CSS
+
+.jssorb03 div, .jssorb03 div:hover, .jssorb03 .av{
+  
+  overflow:hidden;
+  cursor: pointer;
+  }
+
+.jssorb03 div {
+background-position: -5px -4px;
+}
+
+.jssorb03 div:hover, .jssorb03 .av:hover {
+ background-position: -35px -4px;
+ }
+
+.jssorb03 .av { 
+background-position: -65px -4px;
+}
+.jssorb03 .dn, .jssorb03 .dn:hover {
+background-position: -95px -4px;
+}
+
+
+div[u="slides"] {
+cursor: move;
+position: absolute;
+left: 0px; 
+top: 0px;
+width: 640px;
+height: 390px;
+overflow: hidden;
+}
+
+
+
+
+
+
+// extra media queries
+@media  screen  and (max-width: 768px) {
+
+  footer {
+  display: none;
+  }
+  
+
+#movieText h2, #movieText h4{
+  display: none;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
