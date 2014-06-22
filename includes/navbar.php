@@ -1,6 +1,6 @@
 <!-- start of nav -->
 
-<div class="navbar navbar-default"  role="navigation">         
+<div class="navbar navbar-default extra-clickable"  role="navigation" >         
         
           
          <div class="container">   

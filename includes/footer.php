@@ -13,6 +13,3 @@
  
  <!-- end of footer -->        
 
-<!--  testing on footer -->
-
-<div class="div">	</div>

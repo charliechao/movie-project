@@ -139,13 +139,18 @@ div[u="slides"] {
   overflow: hidden;
 }
 
+/* line 150, scss/custom.scss */
+.extra-clickable {
+  pointer-events: auto;
+}
+
 @media screen and (max-width: 768px) {
-  /* line 155, scss/custom.scss */
+  /* line 161, scss/custom.scss */
   footer {
     display: none;
   }
 
-  /* line 160, scss/custom.scss */
+  /* line 166, scss/custom.scss */
   #movieText h2, #movieText h4 {
     display: none;
   }
