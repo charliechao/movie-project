@@ -1,7 +1,9 @@
    <!-- Session Table -->
-        <div class="col-sm-6 ">
-         <h2 class="text-center">Session Table</h2>
-         <table class="table table-hover">
+        <div class="col-sm-12 text-center">
+         <div >
+           <button type="button" class="btn btn-danger"><h2 class="text-center">Session Table</h2></button>
+         </div>
+         <table class="table table-hover" id="session-table">
         <thead>
           <tr>
             <th></th>
