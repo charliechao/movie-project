@@ -1,6 +1,6 @@
 <!-- start of nav -->
 
-<div class="navbar navbar-default extra-clickable"  role="navigation" >         
+<div class="navbar navbar-default extra-clickable"  role="navigation">         
         
           
          <div class="container">   
@@ -17,15 +17,15 @@
 
               <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav pull-left" >
-              <li><a class="btn btn-block-left" href="index.php" >
+              <li <?=echoActiveClassIfRequestMatches("index")?> ><a class="btn btn-block-left" href="index.php" >
               Home</a></li>
-              <li><a class="btn btn-block-left" href="photoes.php" >
+              <li <?=echoActiveClassIfRequestMatches("photoes")?>><a class="btn btn-block-left" href="photoes.php" >
               Photoes</a></li>
-              <li><a class="btn btn-block-left" href="videos.php" >
+              <li <?=echoActiveClassIfRequestMatches("videos")?>><a class="btn btn-block-left" href="videos.php" >
               Videos</a></li>
-              <li><a class="btn btn-block-left" href="quotes.php" >
+              <li <?=echoActiveClassIfRequestMatches("quotes")?>><a class="btn btn-block-left" href="quotes.php" >
               Quotes</a></li>
-              <li><a class="btn btn-block-left" href="watch_now.php" >
+              <li <?=echoActiveClassIfRequestMatches("watch_now")?>><a class="btn btn-block-left" href="watch_now.php" >
               Watch Now</a></li>
               </ul>
             
@@ -49,5 +49,20 @@
           </div>
 
           </div>
+      
+<?php 
+
+function echoActiveClassIfRequestMatches($requestUri)
+{
+    $current_file_name = basename($_SERVER['REQUEST_URI'], ".php");
+
+    if ($current_file_name == $requestUri)
+        echo 'class="active"';
+}
+
+?>
+      
+       
+      
 
           <!-- end of nav -->       
