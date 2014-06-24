@@ -33,9 +33,6 @@
         </div> 
 
 
-   
-
-<?php include "includes/footer.php" ?>
     
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

@@ -99,18 +99,34 @@ table.table-hover > tbody > tr:hover > th {
   background-color: #f8cf00;
 }
 
-/* line 120, scss/custom.scss */
+/* line 114, scss/custom.scss */
+button.slick-prev {
+  left: -1%;
+}
+
+/* line 119, scss/custom.scss */
+button.slick-next {
+  right: 0.5%;
+}
+
+/* line 124, scss/custom.scss */
+button.slick-prev:before, button.slick-next:before {
+  color: #4D9CD9;
+  font-size: 40px;
+}
+
+/* line 133, scss/custom.scss */
 .extra-clickable {
   pointer-events: auto;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 131, scss/custom.scss */
+  /* line 144, scss/custom.scss */
   footer {
     display: none;
   }
 
-  /* line 136, scss/custom.scss */
+  /* line 149, scss/custom.scss */
   #movieText h2, #movieText h4 {
     display: none;
   }

@@ -111,8 +111,21 @@ table.table-hover > tbody > tr:hover > th {
 
 // videos page CSS
 
+ button.slick-prev {
+    left: -1%;
 
+  }
 
+  button.slick-next {
+    right: 0.5%;   
+
+ }
+
+button.slick-prev:before, button.slick-next:before {
+    color: #4D9CD9;
+    font-size: 40px;
+
+}
 
 // Quotes page CSS
 
