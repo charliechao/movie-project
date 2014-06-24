@@ -14,9 +14,9 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col-xs-12 text-center" id="movieText">
-              <h2> WILL FERRELL</h2>
+              <h2 class="hidden-xs"> WILL FERRELL</h2>
               <h1>ANCHORMAN</h1>
-              <h4>THE LEDGEND OF RON BURGUNDY</h4>
+              <h4 class="hidden-xs">THE LEDGEND OF RON BURGUNDY</h4>
             </div>
           </div>
         </div> 

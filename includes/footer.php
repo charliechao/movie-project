@@ -1,5 +1,5 @@
  <!-- footer -->
- <footer class="navbar-fixed-bottom">
+ <footer class="navbar-fixed-bottom hidden-xs">
     <div class="container-fluid">                  
    <div class="row" id="footer">
      <div class="col-xs-4 col-xs-offset-4 text-center" id="footer-text">

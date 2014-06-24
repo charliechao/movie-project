@@ -13,7 +13,7 @@
       <div class="container text-center">
 
       <div class="row">
-      <div class="col-sm-12 ">
+      <div class="col-xs-12 ">
 
       <a href="img/photo_page/p1-large.jpg" data-lightbox="image-1" data-title="My caption">
       <img src="img/photo_page/p1.jpg" alt=""></a>      
@@ -28,7 +28,7 @@
       <div class="col-sm-12">
       <a href="img/photo_page/p4-large.jpg" data-lightbox="image-1" data-title="My caption">   
       <img src="img/photo_page/p4.jpg" alt=""></a>
-      <a href="img/photo_page/p5-large.jpg" data-lightbox="image-1" data-title="My caption"> 
+      <a class="hidden-xs" href="img/photo_page/p5-large.jpg" data-lightbox="image-1" data-title="My caption"> 
       <img src="img/photo_page/p5.jpg" alt=""></a>
       <a href="img/photo_page/p6-large.jpg" data-lightbox="image-1" data-title="My caption"> 
       <img src="img/photo_page/p6.jpg" alt=""></a>

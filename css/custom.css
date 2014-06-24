@@ -89,45 +89,61 @@ body > div.navbar.navbar-default {
 }
 
 /* line 103, scss/custom.scss */
-#map {
-  height: 500px;
+.watch_now {
+  background-color: rgba(248, 207, 0, 0.5);
 }
 
 /* line 108, scss/custom.scss */
+.sessiontable {
+  background-color: rgba(59, 89, 152, 0.5);
+}
+
+/* line 112, scss/custom.scss */
+.map {
+  background-color: rgba(225, 42, 39, 0.5);
+}
+
+/* line 118, scss/custom.scss */
+.iframe {
+  height: 0%;
+  max-height: 500px;
+}
+
+/* line 125, scss/custom.scss */
 table.table-hover > tbody > tr:hover > td,
 table.table-hover > tbody > tr:hover > th {
   background-color: #f8cf00;
 }
 
-/* line 114, scss/custom.scss */
+/* line 129, scss/custom.scss */
+#session-table > thead > tr > th {
+  text-align: center;
+}
+
+/* line 135, scss/custom.scss */
 button.slick-prev {
   left: -1%;
 }
 
-/* line 119, scss/custom.scss */
+/* line 140, scss/custom.scss */
 button.slick-next {
   right: 0.5%;
 }
 
-/* line 124, scss/custom.scss */
+/* line 145, scss/custom.scss */
 button.slick-prev:before, button.slick-next:before {
   color: #4D9CD9;
   font-size: 40px;
 }
 
-/* line 133, scss/custom.scss */
+/* line 154, scss/custom.scss */
 .extra-clickable {
   pointer-events: auto;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 144, scss/custom.scss */
-  footer {
-    display: none;
-  }
-
-  /* line 149, scss/custom.scss */
-  #movieText h2, #movieText h4 {
-    display: none;
+  /* line 165, scss/custom.scss */
+  .iframe {
+    max-height: 300px;
   }
 }

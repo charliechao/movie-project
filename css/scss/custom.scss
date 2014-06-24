@@ -100,8 +100,25 @@ line-height: 80%;
 
 // Watch Now CSS
 
-#map{
-  height: 500px;  
+.watch_now {
+
+  background-color: rgba($bg-color,0.5)
+}
+
+.sessiontable {
+background-color: rgba($fbbtn-color, 0.5);
+}
+
+.map{
+background-color: rgba($ytbtn-color, 0.5);
+
+}
+
+
+.iframe {
+ height:0%;
+ max-height:500px;
+
 }
 
 table.table-hover > tbody > tr:hover > td,
@@ -109,6 +126,10 @@ table.table-hover > tbody > tr:hover > th {
   background-color: $bg-color;
 }  
 
+#session-table > thead > tr > th {
+  text-align: center;
+
+}
 // videos page CSS
 
  button.slick-prev {
@@ -139,22 +160,17 @@ pointer-events: auto
 
 
 // extra media queries
-@media  screen  and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
-  footer {
-  display: none;
-  }
-  
-
-#movieText h2, #movieText h4{
-  display: none;
-}
-
+.iframe {
+  max-height: 300px;
 
 
 }
 
 
+
+}
 
 
 
