@@ -43,13 +43,17 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <!--  Slick -->
-    <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.3.6/slick.min.js"></script>    
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.3.6/slick.min.js"></script>  
+    <!-- FitVidez -->
+    <script type="text/javascript"src="js/fitvids.js"></script>
     <script type="text/javascript">
+
         $(document).ready(function(){
             $('.single').slick();
-
-        });
+            $(".single").fitVids();
+            });
     </script>
+   
   </body>
 </html>
 

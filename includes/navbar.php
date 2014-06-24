@@ -6,7 +6,7 @@
          <div class="container">   
 
           <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <button type="button" class="navbar-toggle extra-clickable" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -19,7 +19,7 @@
               <ul class="nav navbar-nav pull-left" >
               <li <?=echoActiveClassIfRequestMatches("index")?> ><a class="btn btn-block-left" href="index.php" >
               Home</a></li>
-              <li <?=echoActiveClassIfRequestMatches("photoes")?>><a class="btn btn-block-left" href="photoes.php" >
+              <li <?=echoActiveClassIfRequestMatches("photos")?>><a class="btn btn-block-left" href="photoes.php" >
               Photoes</a></li>
               <li <?=echoActiveClassIfRequestMatches("videos")?>><a class="btn btn-block-left" href="videos.php" >
               Videos</a></li>
